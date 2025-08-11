@@ -56,5 +56,4 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-![screenshot](r"C:\Users\jamil\Downloads\cap1.png")
 
