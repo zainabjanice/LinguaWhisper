@@ -56,4 +56,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+<p align="center">
+  <img src="https://github.com/zainabjanice/LinguaWhisper/blob/f24650967446ede82e7894f9dbe835f726318c83/cap1.png?raw=true" alt="Screenshot" width="620"/>
+</p>
 
