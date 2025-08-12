@@ -1,4 +1,4 @@
-# 🚀 LinguaWhisper: Multilingual Audio Detection, Transcription & Translation 🎙️🌐
+# LinguaWhisper: Multilingual Audio Detection, Transcription & Translation 
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
@@ -6,7 +6,7 @@
 
 ---
 
-## 🔥 What is LinguaWhisper?
+## What is LinguaWhisper?
 
 LinguaWhisper is a **cutting-edge Streamlit app** that empowers users to:
 
@@ -19,7 +19,7 @@ Ideal for **journalists, researchers, language learners, and AI enthusiasts** wo
 
 ---
 
-## ⚡ Features at a Glance
+##  Features at a Glance
 
 | Feature                        | Description                                     |
 |-------------------------------|------------------------------------------------|
@@ -31,7 +31,7 @@ Ideal for **journalists, researchers, language learners, and AI enthusiasts** wo
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ streamlit run app.py
   <img src="https://github.com/zainabjanice/LinguaWhisper/blob/f24650967446ede82e7894f9dbe835f726318c83/cap1.png?raw=true" alt="Screenshot" width="620"/>
 </p>
 
-### 🛠️ How to Use
+###  How to Use
 1. Upload your audio file via the uploader widget.
 
 2. Click **Detect the language** to detect the language.
@@ -69,10 +69,10 @@ streamlit run app.py
 
 4. Optionally, translate the text by clicking **Translate into English**.
 
-### 📄 License
+###  License
 This project is licensed under the MIT License. See LICENSE for details.
 
-### 📞 Contact
+###  Contact
 Created with ❤️ by Zainab Jamil
 
 Gmail: jamilzainab91@gmail.com
