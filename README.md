@@ -78,3 +78,7 @@ Created with ❤️ by Zainab Jamil
 Gmail: jamilzainab91@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/zainab-jamil-50223a247/
+
+Thank you for exploring LinguaWhisper! 🎧✨
+
+
