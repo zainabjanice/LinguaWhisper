@@ -111,19 +111,17 @@ I measured:
 
 ## Getting Started
 ###  Features at a Glance
+<div align="center">
 
 | Feature                        | Description                                     |
 |-------------------------------|------------------------------------------------|
-| 🎵 Multi-format Audio Upload   | WAV, MP3, M4A, and more                        |
-| 🌍 Language Detection          | French, Italian, German, Russian via GMM       |
-| 📝 Accurate Transcription      | Powered by OpenAI Whisper tiny                  |
-| 🌐 Instant Translation         | Translate transcriptions seamlessly              |
-| 🚀 Interactive UI              | Fast & user-friendly Streamlit interface        |
-### Prerequisites
+|  Multi-format Audio Upload   | WAV, MP3, M4A, and more                        |
+|  Language Detection          | French, Italian, German, Russian via GMM       |
+|  Accurate Transcription      | Powered by OpenAI Whisper tiny                  |
+| Instant Translation         | Translate transcriptions seamlessly              |
+| Interactive UI              | Fast & user-friendly Streamlit interface        |
 
-- Python 3.8 or higher  
-- [Streamlit](https://streamlit.io/)  
-- FFmpeg is installed and added to your system PATH  
+</div>
 
 ### Installation
 
