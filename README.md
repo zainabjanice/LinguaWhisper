@@ -172,6 +172,11 @@ Gmail: jamilzainab91@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/zainab-jamil-50223a247/
 
-Thank you for exploring LinguaWhisper! 🎧✨
+---
+### Project Status
+
+This project is still in development and will keep improving over time.
+
+**Thank you for exploring LinguaWhisper! 🎧✨**
 
 
