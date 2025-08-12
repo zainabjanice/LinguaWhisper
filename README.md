@@ -60,3 +60,21 @@ streamlit run app.py
   <img src="https://github.com/zainabjanice/LinguaWhisper/blob/f24650967446ede82e7894f9dbe835f726318c83/cap1.png?raw=true" alt="Screenshot" width="620"/>
 </p>
 
+### 🛠️ How to Use
+1. Upload your audio file via the uploader widget.
+
+2. Click **Detect the language** to detect the language.
+
+3. Click **Transcribe with Whisper** to transcribe the audio.
+
+4. Optionally, translate the text by clicking **Translate into English**.
+
+### 📄 License
+This project is licensed under the MIT License. See LICENSE for details.
+
+### 📞 Contact
+Created with ❤️ by Zainab Jamil
+
+Gmail: jamilzainab91@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/zainab-jamil-50223a247/
