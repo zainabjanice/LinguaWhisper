@@ -107,23 +107,15 @@ I measured:
 
 </div>
 
+With 512-component GMMs, the system achieved:
+- Validation accuracy: 86.5%
+- Test accuracy: 85.4%
+  
+Strong performance in detecting German and Italian; improvement needed for French recall.
+
 ---
 
-## Getting Started
-###  Features at a Glance
-<div align="center">
-
-| Feature                        | Description                                     |
-|-------------------------------|------------------------------------------------|
-|  Multi-format Audio Upload   | WAV, MP3, M4A, and more                        |
-|  Language Detection          | French, Italian, German, Russian via GMM       |
-|  Accurate Transcription      | Powered by OpenAI Whisper tiny                  |
-| Instant Translation         | Translate transcriptions seamlessly              |
-| Interactive UI              | Fast & user-friendly Streamlit interface        |
-
-</div>
-
-### Installation
+## Installation
 
 ```bash
 git clone https://github.com/YourUsername/LinguaWhisper.git
@@ -136,25 +128,42 @@ venv\Scripts\activate.bat # Windows
 
 pip install -r requirements.txt
 ```
+---
 ###  Run the App 
 ```bash
 streamlit run app.py
 ```
-<p align="center">
-  <img src="https://github.com/zainabjanice/LinguaWhisper/blob/f24650967446ede82e7894f9dbe835f726318c83/cap1.png?raw=true" alt="Screenshot" width="620"/>
-</p>
+---
+### Installing FFmpeg
 
-###  How to Use
-1. Upload your audio file via the uploader widget.
+FFmpeg is required to handle various audio formats (MP3, M4A, WAV, etc.). Make sure it’s installed and added to your system’s PATH.
 
-2. Click **Detect the language** to detect the language.
+#### Windows
 
-3. Click **Transcribe with Whisper** to transcribe the audio.
+- 1. Download FFmpeg from https://www.gyan.dev/ffmpeg/builds/.
+- 2. Extract the ZIP file to a folder (e.g., C:\ffmpeg).
+- 3. Add the `bin` folder `(e.g., C:\ffmpeg\bin)` to **your Environment Variables → PATH**.
+- 4. Verify the installation:
+     
+```bash
+ffmpeg -version
+```
+#### macOS
+```bash
+brew install ffmpeg
+```
+#### Linux (Debian/Ubuntu)
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+#### Linux (Fedora)
+```bash
+sudo dnf install ffmpeg
+```
+⚡Tip: Without FFmpeg, the app will only read .wav files, and MP3/M4A uploads will fail.
 
-4. Optionally, translate the text by clicking **Translate into English**.
-
-###  License
-This project is licensed under the MIT License. See LICENSE for details.
+---
 
 ###  Contact
 Created with ❤️ by Zainab Jamil
