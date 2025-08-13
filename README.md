@@ -97,6 +97,21 @@ I measured:
 
 ---
 
+##  Project Pipeline
+
+
+
+    A[Audio Input: wav/mp3/m4a] --> B[Feature Extraction: MFCC + delta + delta2]
+    B --> C[GMM Scoring (512 components)]
+    C --> D[Language Detection]
+    D --> E[Transcription using Whisper]
+    E --> F[Translation to English (Google Translate API)]
+    F --> G[Results Displayed in Streamlit]
+
+
+---
+
+
 ## Results
 <div align="center">
 
